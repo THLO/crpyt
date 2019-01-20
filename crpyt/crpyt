@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+
+'''
+crpyt is a module to encrypt and decrypt media data, such as images and
+video, while preserving the media type.
+'''
+
+from crpyt import CRPYTExecutor
+
+if __name__ == '__main__':
+    crpyt_executor = CRPYTExecutor()
+    crpyt_executor.execute()
